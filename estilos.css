@@ -1,148 +1,91 @@
 .contenedor1 {
   width: 100%;
-  background: rgb(148, 148, 148);
+  background: blue;
   outline-style: solid;
   outline-color: black;
   border-radius: 0.5rem;
   height: 100px;
-}
-
-.contenedor1-1 {
-  width: 100%;
-  display: inline-flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: space-around;
-  padding-top: 20px;
-  padding-left: 20px;
-}
-
-.encabezado {
-  border-color: black;
-  width: 20%;
-}
-
-.menu1 {
-  background-color: palegreen;
-  width: 20%;
-  height: 25px;
-  margin-right: 40px;
-  outline-style: solid;
-  outline-color: black;
-}
-
-.contenedor1-2 {
-  width: 100%;
-  display: inline-flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: space-around;
-  padding-top: 20px;
-  padding-left: 20px;
-}
-
-.logo {
-  background-color: rgb(67, 67, 150);
-  width: 10%;
-  height: 25px;
-  outline-style: solid;
-  outline-color: black;
-}
-
-.menu2 {
-  background-color: darkred;
-  width: 40%;
-  height: 25px;
-  outline-style: solid;
-  outline-color: black;
-  margin-right: 40px;
 }
 
 .contenedor2 {
-  display: inline-flex;
+  height: 750px;
+  display: flex;
   flex-flow: row nowrap;
-  width: 100%;
-  height: 300px;
-  margin-top: 3mm;
-  margin-bottom: 10mm;
-  column-gap: 10mm;
-}
-.izquierda {
-  background-color: black;
-  width: 33.3%;
-  padding: 20px;
-  outline-style: solid;
-  outline-color: black;
-  border-radius: 0.5rem;
 }
 
-.centro {
-  background-color: rgb(50, 131, 163);
-  width: 33.3%;
-  padding: 20px;
+.bloque2 {
+  width: 35%;
+  background: red;
   outline-style: solid;
   outline-color: black;
   border-radius: 0.5rem;
-}
-
-.derecha {
-  background-color: orange;
-  width: 33.3%;
-  padding: 20px;
-  outline-style: solid;
-  outline-color: black;
-  border-radius: 0.5rem;
+  margin-top: 15px;
+  height: 780px;
 }
 
 .contenedor3 {
-  display: inline-flex;
-  flex-flow: row nowrap;
+  width: 65%;
+  margin-right: 15px;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.contenedor3-1 {
   width: 100%;
-  height: 300px;
-  column-gap: 10mm;
-  margin-bottom: 2mm;
-}
-
-.izquierda2 {
-  background-color: darkgreen;
-  width: 67.4%;
-  padding: 20px;
-  outline-style: solid;
-  outline-color: black;
-  border-radius: 0.5rem;
-}
-
-.derecha2 {
-  background-color: red;
-  width: 32.6%;
-  padding: 20px;
-  outline-style: solid;
-  outline-color: black;
-  border-radius: 0.5rem;
-}
-
-.contenedor4 {
-  background-color: skyblue;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.bloque3 {
   width: 100%;
-  height: 100px;
-  margin-top: 3mm;
+  background: greenyellow;
   outline-style: solid;
   outline-color: black;
   border-radius: 0.5rem;
+  margin-top: 15px;
+  margin-left: 15px;
+  height: 250px;
 }
 
-.pie {
-  width: 80%;
-  padding: 20px;
-}
-
-.elemento {
-  background-color: rgb(67, 67, 150);
+.bloque4 {
+  width: 100%;
+  background: yellow;
   outline-style: solid;
   outline-color: black;
-  padding: 10px;
-  height: 25px;
+  border-radius: 0.5rem;
+  margin-top: 15px;
+  margin-left: 15px;
+  height: 250px;
+}
+
+.contenedor3-2 {
+  width: 100%;
+  margin-left: 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.bloque5 {
+  width: 50%;
+  background: skyblue;
+  outline-style: solid;
+  outline-color: black;
+  border-radius: 0.5rem;
+  margin-top: 15px;
+  margin-right: 7.5px;
+  height: 250px;
+}
+
+.bloque6 {
+  width: 50%;
+  background: purple;
+  outline-style: solid;
+  outline-color: black;
+  border-radius: 0.5rem;
+  margin-top: 15px;
+  margin-left: 7.5px;
+  height: 250px;
 }
